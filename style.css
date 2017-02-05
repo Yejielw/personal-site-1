@@ -1,1 +1,20 @@
-style.css
+.title {
+	text-align: center;
+	color: blue;
+	background-color: lightgray;
+}
+
+.container1 {
+	background-image: url(image1.jpg);
+
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+
+}
+
+li:nth-child(2) {
+	float: right;
+}
