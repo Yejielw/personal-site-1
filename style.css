@@ -1,7 +1,7 @@
 .title {
 	text-align: center;
 	color: yellow;
-	
+	font-family: 'Pangolin', cursive;
 	padding: 20px 50px;
 	margin: 0px 500px;
 }
@@ -26,7 +26,7 @@ body {
     margin: 0;
 }
 nav {
-    background-color: #333333;
+    background-color: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -47,4 +47,11 @@ nav li a {
   font-weight: bold;
   padding: 0 18px;
   font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+	width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
 }
