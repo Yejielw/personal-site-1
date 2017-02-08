@@ -21,6 +21,11 @@ p {
 	font-family: 'Pangolin', cursive;
 }
 
+.description {
+  margin-left: 200px;
+  margin-right: 200px;  
+}
+
 body {
     background-color: #ddd;
     margin: 0;
@@ -70,7 +75,7 @@ nav li a {
 .repos img {
   width: 100%;
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
 }
 
 .repotext {
