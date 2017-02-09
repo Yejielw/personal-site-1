@@ -25,6 +25,10 @@ p {
 	font-family: 'Pangolin', cursive;
 }
 
+ul.topnav li a:hover {
+  background-color: #555;
+}
+
 .description {
   margin-left: auto;
   margin-right: auto;  
@@ -71,7 +75,9 @@ nav li a {
   font-family: 'Roboto', sans-serif;
 }
 
-
+.topnav li.icon {
+  display: none;
+}
 
 li{
   display: inline-block;
@@ -82,7 +88,7 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
-}
+
 
 .hero {
 	width: 100%;
@@ -121,5 +127,31 @@ li{
   }
   .column {
   width: 100%;
+  }
+
 }
+@media screen and (max-width:680px) {
+  .topnav li:not(:first-child) {display: none;}
+  .topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+@media screen and (max-width:680px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  .topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
